@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Briem+Hand:wght@100..900&family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main{
+    background-color: #000;
+    color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.start_container{
+    background-color: #FFC100;
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+    border-radius: 11px;
+    border: 2px solid #FF6500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo{
+    width: 50%;
+    height: 20%;
+    margin: 2.5rem auto;
 }
 
-.App-link {
-  color: #61dafb;
+.logo img{
+    width: 90%;
+    height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.start_data{
+    padding: 1rem;
+}
+
+.start{
+    display: flex;
+    flex-direction: column;
+}
+.btn1 , .btn2{
+    margin: 1rem 0;
+    padding: 1rem 0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn1{
+    background-color: #FF6500;
+}
+
+.btn2{
+    background-color: #00215E;
+    
+}
+
+.menu_container{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input_data{
+    background-color: #646464;
+    border-radius: 11px;
+    padding: 1rem .7rem;
+}
+.input_data h1{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.input_data input{
+    width: 90%;
+    padding: .5rem .2rem;
+    font-size: 1.2rem;
+    border: 1px solid #FF6500;
+    
+}
+
+.room_btn button{
+  margin: 0 .5rem;
 }
